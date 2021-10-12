@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.pwaoverlayforios.PWAOverlayForiOS" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>PWA Overlay For iOS</name>
+    <description>Overlay message to install app as PWA. Only visible on Safari in iOS.</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAACXBIWXMAAAsSAAALEgHS3X78AAAB/ElEQVRYhe1Xy21CMRAcLAogHVDCowO4+E4FCQVYgg6SCoLkAkIJOfsCHUAHoQOowIlWsWHfPvv9ECKHzAWM1+td73i8IEJb/01fB/gdTAFsAcwqFi2hrR8FP+W12vpXJX0M+IBbO6MGyYlGlwA++aBi4IyaZ3PR1hfyNyUmC239KbVyfEn8epj10NZvk0FmY7iLwQiyFiIzSnsfx6XaNMWorX+nM4uL6FNbv0/ZDtmiLwBjNjcTtoXg5ZMz6jxkP4xzYcoUQg2WAJJs6oRGB3VRoY2DJvC86JQrdO4bWXR60ta/1NnUEekU2QZg4YzapOxyROKLVwA+cpFkD5HleAAwAfCcsuNE4jdZCscRwFuYPzqjjiUHpIUApFbw8ymC3saNDs6oCY+AaLlzRkn+x3R2ouSXO3F/Kj/cwTqUMYth3aQzavXwFDo5GNXYZZEkRwtcmNgsCgmEN2Mros5e+VYZ3LCxRKdAWhcxPCX7sPlCSOosSM45aFe1icigVwlYULHusyAYnVG5SOGY6WnPdTnZzVibmQKtmdNrzuekIC/D5oSVM2rdJSMpmwm/9MiVOCI5EMm167p5Q2DrcAIQ/c/tSnIr/gOofU6a0Kq9asB/Cf4cB2LHN6U/owA2vAvsg9A0khBFZS35S6kWLSDVqm3Le4DUj9T1KsUAfgB1QspEazsZVAAAAABJRU5ErkJggg==</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="infoText" type="textTemplate">
+                <caption>Info text</caption>
+                <description>First visible text inside the overlay.</description>
+                <translations>
+                    <translation lang="en_US">Install this application on your home screen for quick and easy access.</translation>
+                    <translation lang="nl_NL">Installeer deze applicatie op uw homescreen voor makkelijke en snelle toegang.</translation>
+                </translations>
+            </property>
+            <property key="instructionTextStart" type="textTemplate">
+                <caption>Instruction text</caption>
+                <description>Start of the instruction before the shown app-icon</description>
+                <translations>
+                    <translation lang="en_US">Tap on</translation>
+                    <translation lang="nl_NL">Tik op</translation>
+                </translations>
+            </property>
+            <property key="instructionTextEnd" type="textTemplate">
+                <caption>Instruction text</caption>
+                <description>End of the instruction after the shown app-icon</description>
+                <translations>
+                    <translation lang="en_US">Then 'Add to Home Screen'.</translation>
+                    <translation lang="nl_NL">Dan 'Toevoegen aan startscherm'.</translation>
+                </translations>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
