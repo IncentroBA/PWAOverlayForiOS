@@ -32,6 +32,17 @@
                     <translation lang="nl_NL">Dan 'Toevoegen aan startscherm'.</translation>
                 </translations>
             </property>
+            <property key="instructionCanBeClosed" type="boolean" defaultValue="false">
+                <caption>Overlay closeable?</caption>
+                <description>User may close the overlay</description>
+            </property>
+            <property key="instructionClosed" type="attribute" required="true">
+                <caption>Closed attribute</caption>
+                <description>Checks if the instruction is closed or not</description>
+                <attributeTypes>
+                    <attributeType name="Boolean"/>
+                </attributeTypes>
+            </property>
         </propertyGroup>
     </properties>
 </widget>

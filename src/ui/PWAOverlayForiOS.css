@@ -1,4 +1,4 @@
-.ios-pwa {
+.ios-pwa:not(:empty) {
     background-color: white;
     bottom: 16px;
     border: solid 1px #cdcdcd;
@@ -50,11 +50,8 @@
 }
 
 .ios-pwa__bottom {
-    align-items: center;
     background-color: #f5f6f8;
     border-radius: 0 0 8px 8px;
-    display: flex;
-    justify-content: center;
     padding: 16px;
 }
 
@@ -62,4 +59,17 @@
     height: 20px;
     margin: 0 4px;
     width: 20px;
+}
+
+.ios-pwa__close {
+    height: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 16px;
+}
+
+.ios-pwa__close svg {
+    height: 16px;
+    width: 16px;
 }
