@@ -1,33 +1,32 @@
 {
-    "name": "pwaoverlayforios",
-    "widgetName": "PWAOverlayForiOS",
-    "version": "1.1.1",
-    "description": "Overlay message to install app as PWA. Only visible on Safari in iOS.",
-    "copyright": "Incentro 2021",
-    "author": "Rob Duits",
-    "engines": {
-        "node": ">=16"
-    },
-    "config": {
-        "projectPath": "../..//",
-        "mendixHost": "http://localhost:8080",
-        "developmentPort": "3000"
-    },
-    "packagePath": "incentro",
-    "scripts": {
-        "start": "pluggable-widgets-tools start:web",
-        "build": "pluggable-widgets-tools build:web",
-        "lint": "pluggable-widgets-tools lint",
-        "lint:fix": "pluggable-widgets-tools lint:fix",
-        "prerelease": "npm run lint",
-        "release": "pluggable-widgets-tools release:web"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "@mendix/pluggable-widgets-tools": "^9.20.0",
-        "file-loader": "^6.2.0"
-    },
-    "dependencies": {
-        "classnames": "^2.3.2"
-    }
+  "name": "pwaoverlayforios",
+  "widgetName": "PWAOverlayForiOS",
+  "version": "1.1.2",
+  "description": "Overlay message to install app as PWA. Only visible on Safari in iOS.",
+  "copyright": "Incentro 2021",
+  "author": "Rob Duits",
+  "engines": {
+    "node": ">=16"
+  },
+  "config": {
+    "projectPath": "../..//",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "incentro",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.18.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
 }
