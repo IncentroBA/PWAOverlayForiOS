@@ -3,31 +3,32 @@
   "widgetName": "PWAOverlayForiOS",
   "version": "1.1.3",
   "description": "Overlay message to install app as PWA. Only visible on Safari in iOS.",
-  "copyright": "2023 Incentro International B.V.",
+  "copyright": "2024 Incentro International B.V.",
   "author": "Rob Duits",
   "engines": {
     "node": ">=16"
   },
+  "license": "MIT",
   "config": {
-    "projectPath": "../..//",
+    "projectPath": "../../",
     "mendixHost": "http://localhost:8080",
-    "developmentPort": "3000"
+    "developmentPort": 3000
   },
   "packagePath": "incentro",
   "scripts": {
-    "start": "pluggable-widgets-tools start:web",
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
     "build": "pluggable-widgets-tools build:web",
     "lint": "pluggable-widgets-tools lint",
     "lint:fix": "pluggable-widgets-tools lint:fix",
     "prerelease": "npm run lint",
     "release": "pluggable-widgets-tools release:web"
   },
-  "license": "MIT",
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^10.0.1"
+    "@mendix/pluggable-widgets-tools": "^10.5.0"
   },
   "dependencies": {
-    "classnames": "^2.3.2"
+    "classnames": "^2.2.6"
   },
   "resolutions": {
     "react": "18.2.0",
