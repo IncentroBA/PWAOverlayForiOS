@@ -1,4 +1,4 @@
-import { hidePropertiesIn, Problem, Properties } from "@mendix/pluggable-widgets-tools";
+import { hidePropertiesIn } from "@mendix/pluggable-widgets-tools";
 
 /**
  * @typedef Property

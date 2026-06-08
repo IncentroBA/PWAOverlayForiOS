@@ -1,5 +1,5 @@
 import './ui/PWAOverlayForiOS.css';
-import { createElement, useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
 import shareIcon from './shareIcon.svg';
 
 export default function PWAOverlayForiOS({

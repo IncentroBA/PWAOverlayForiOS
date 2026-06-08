@@ -1,4 +1,3 @@
-import { createElement } from "react";
 // import shareIcon from "./shareIcon.svg";
 
 export function preview() {
