@@ -24,11 +24,18 @@ function requireCommon$2() {
     value: true
   });
   common$2.ensure = ensure;
+  common$2.partition = partition;
   function ensure(arg) {
-    if (arg == null) {
-      throw new Error("Did not expect an argument to be undefined");
+    var label = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "argument";
+    if (arg === null || arg === undefined) {
+      throw new Error("Did not expect ".concat(label, " to be ").concat(arg));
     }
     return arg;
+  }
+  function partition(input, predicate) {
+    return [input.filter(predicate), input.filter(function (x) {
+      return !predicate(x);
+    })];
   }
   return common$2;
 }
